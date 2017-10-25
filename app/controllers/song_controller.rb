@@ -52,7 +52,7 @@ class SongsController < ApplicationController
     @song.save
     flash[:message] = "Successfully updated song."
     redirect to("/songs/#{@song.slug}")
-    
+
   end
 
 
